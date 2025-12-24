@@ -1,0 +1,20 @@
+.skills {
+  padding: 4rem 8%;
+}
+
+.list {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+
+  span {
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.05);
+  }
+}
+
+[data-theme="dark"] .list span {
+  box-shadow: 0 10px 30px -15px #d9dbdf;
+  border: 1px solid hsla(0, 0%, 83%, .397);
+}

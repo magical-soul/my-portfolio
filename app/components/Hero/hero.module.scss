@@ -1,0 +1,47 @@
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 4rem 8%;
+  align-items: center;
+}
+
+.hero span {
+  color: var(--primary);
+}
+
+.hero-buttons a {
+  margin-right: 1rem;
+  text-decoration: none;
+  padding: 0.7rem 1.5rem;
+  border-radius: 6px;
+  background: var(--primary);
+  color: white;
+}
+
+.hero img {
+  width: 280px;
+  border-radius: 50%;
+}
+
+.avatar {
+  width: 20rem;              
+  height: 20rem;            
+  margin-bottom: 1.5rem;     
+  position: relative;        
+  border-radius: 9999px;   
+  overflow: hidden;         
+}
+
+@media (min-width: 768px) {
+  .avatar {
+    margin-bottom: 0;
+    margin-right: 2.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .avatar {
+   width: 12rem;              
+  height: 12rem;     
+  }
+}

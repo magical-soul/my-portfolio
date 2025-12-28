@@ -10,7 +10,7 @@ export const greeting = {
   title: "Hi, I’m Jyoti Baraskar 👋",
   subtitle: "Senior Frontend Engineer | React | Next.js | Performance | AI",
   description:
-    "Senior Frontend Engineer with 10+ years of experience building scalable, high-performance web applications with a strong focus on performance, reusable components, and AI-powered solutions.",
+    "Senior Frontend Engineer with 8+ years of experience building scalable React & Next.js applications for eCommerce and enterprise platforms. Focused on performance, accessibility, and real-world impact.",
   resumeLink: "",
 };
 

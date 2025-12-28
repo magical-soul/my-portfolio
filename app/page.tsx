@@ -6,6 +6,7 @@ import Contact from "./components/Contact/Contact";
 import Education from "./components/Education/Education";
 import Experience from "./components/Experience/Experience";
 import Achievements from "./components/Achievements/Achievements";
+import WhyHireMe from "./components/WhyHireMe/whyHireMe";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <Experience />
       <Projects />
       <Achievements />
+      <WhyHireMe />
       <Contact />
     </div>
   );

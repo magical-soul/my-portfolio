@@ -7,7 +7,7 @@ const projects = [
     description:
       "AI-powered content generation platform with performance-optimized UI and SSR.",
     impact:
-      "Designed and built end-to-end frontend architecture integrating AI APIs.",
+      "Built a full-stack AI-powered content generation platform using React and Next.js. Integrated AI APIs for real-time content creation. Deployed on Vercel with optimized performance and responsive UI. Designed to help creators and marketers improve productivity.",
     live: "https://ai-creator-platform-jojo.vercel.app",
   },
   {

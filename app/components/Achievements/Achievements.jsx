@@ -16,7 +16,7 @@ export const achievements = [
  }
 ];
 
-export default function Education() {
+export default function Achievements() {
   return (
     <section className={styles.section}>
       <h2 className={styles.heading}>Achievements</h2>

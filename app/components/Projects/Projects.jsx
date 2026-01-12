@@ -20,12 +20,21 @@ const projects = [
     live: "https://www.vestiairecollective.com/",
   },
   {
+    title: "StackFlow",
+    tech: "ReactJS, JavaScript, HTML5, CSS3, GraphQL, NodeJS, ExpressJS, MongoDB",
+    description:
+      "A modern full-stack application leveraging React, Node.js, and GraphQL to demonstrate clean architecture and end-to-end ownership",
+    impact:
+      "Deployed the frontend on Vercel and backend on Render, handling real-world concerns such as environment configuration, CORS policies, secure database connections, and build optimizations.",
+    live: "https://booking-api-event.vercel.app/",
+  },
+  {
     title: "Schemes Provider Application",
     tech: "ReactJS, Redux, React-Routing, JavaScript, HTML5, CSS3, .net core, Entity framework",
     description:
       "LR's service provider assessment schemes help assure the public of competence and safety. Independently assess service providers working within the electricity, gas, and water sectors in the UK. By operating these schemes, we help assure a common level of competency through technical assessments. Service providers can also find information about how to get accredited.",
     impact:
-      "Improved Lighthouse score by 20% and reduced page load times by 40%.",
+      "Improves access to scheme data through efficient UI design and dynamic API integration.",
   },
   {
     title: "Branch Finder",
@@ -33,7 +42,7 @@ const projects = [
     description:
       "Branch finder application is used to find the nearest Post Oﬃce in a UK. It also gives informa%on about diﬀerent postcodes, opening hours allowing you to choose the service you require. It has different services of Delivery office, post office etc. User can track and trace the branch and parcels on maps",
     impact:
-      "Improved Lighthouse score by 20% and reduced page load times by 40%.",
+      "Solves real geolocation problems with interactive maps and responsive search functionality.",
   },
   {
     title: "Eaton Foreseer Monitoring application",
@@ -41,7 +50,7 @@ const projects = [
     description:
       "Foreseer software is to deliver a single monitoring and management system that ties thousands of complex devices together and builds intelligence around them. It offers vendor-independent solutions designed to help data centers, hospitals, industrial facilities, financial institutions and other organizations to reduce energy consumption and downtime by monitoring parameters of multiple devices(UPSs, PXMs).",
     impact:
-      "Improved Lighthouse score by 20% and reduced page load times by 40%.",
+      "Delivering real-time insights through enterprise-grade monitoring dashboards with optimized performance.",
     live: "https://www.eaton.com/content/dam/eaton/services/eess/eess-documents/foreseer-br02606004e.pdf",
   },
 ];

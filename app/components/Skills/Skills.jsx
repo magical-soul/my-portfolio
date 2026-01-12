@@ -17,6 +17,10 @@ const skills = [
   "Tailwind CSS",
   "API Integration",
   "Gemini API",
+  "Node.js",
+  "ExpressJS",
+  "GraphQL",
+  "MongoDB"
 ];
 
 export default function Skills() {

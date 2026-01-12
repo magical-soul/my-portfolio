@@ -18,7 +18,7 @@ export const achievements = [
 
 export default function Achievements() {
   return (
-    <section className={styles.section}>
+    <section id="achievements" className={styles.section}>
       <h2 className={styles.heading}>Achievements</h2>
 
       <div className={styles.card}>

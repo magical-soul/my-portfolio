@@ -36,7 +36,7 @@ export const experience = [
 
 export default function Experience() {
   return (
-    <section className={styles.section}>
+    <section id="experience" className={styles.section}>
       <h2 className={styles.title}>Experience</h2>
 
       {experience.map((job, i) => (

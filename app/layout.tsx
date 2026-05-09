@@ -1,13 +1,13 @@
 import "./globals.css";
 export const metadata = {
-  title: "Jyoti Baraskar | Frontend Developer",
+  title: "Jyoti Baraskar | Senior Frontend Developer",
   description:
-    "Frontend Developer specializing in React, Next.js, and modern web performance.",
+    "Senior Frontend Developer specializing in React, Next.js, and modern web performance.",
 
   openGraph: {
-    title: "Jyoti Baraskar | Frontend Developer",
+    title: "Jyoti Baraskar | Senior Frontend Developer",
     description:
-      "Frontend Developer specializing in React, Next.js, and modern UI.",
+      "Senior Frontend Developer specializing in React, Next.js, and modern UI.",
     url: "https://jyotibaraskar-portfolio.vercel.app/",
     siteName: "Jyoti Baraskar Portfolio",
     images: [

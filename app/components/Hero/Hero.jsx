@@ -10,8 +10,8 @@ export const greeting = {
   title: "Hi, I’m Jyoti Baraskar 👋",
   subtitle: "Senior Frontend Engineer | React | Next.js | Performance | AI",
   description:
-    "Senior Frontend Engineer with 8+ years of experience building scalable React & Next.js applications for eCommerce and enterprise platforms. Focused on performance, accessibility, and real-world impact.",
-  resumeLink: "",
+    "8+ years building scalable web applications, Improved performance scores by 40% on large-scale eCommerce platforms. Experience across React, Next.js, APIs, analytics, SEO, and cloud technologies. Worked closely with product, marketing, backend, and data teams in global environments.",
+  resumeLink: "/Jyoti_Baraskar_Resume.pdf",
 };
 
 export default function Hero() {
@@ -25,6 +25,14 @@ export default function Hero() {
         <h1 className="text-4xl font-bold">{greeting.title}</h1>
         <p className="mt-2 text-gray-400">{greeting.subtitle}</p>
         <p className="mt-4 max-w-xl text-gray-300">{greeting.description}</p>
+        {greeting.resumeLink && (
+          <a
+            href={greeting.resumeLink || "#"}
+            className={styles.resumeLink}
+          >
+              <i className="fa-solid fa-file-arrow-down fa-xl"></i> View Resume
+          </a>
+        )}
       </motion.div>
 
       <div className={styles.avatar}>

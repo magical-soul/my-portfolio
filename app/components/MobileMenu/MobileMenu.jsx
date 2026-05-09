@@ -36,6 +36,11 @@ export default function MobileMenu({ close }) {
           </a>
         </li>
          <li>
+          <a href="#certifications" onClick={close}>
+            Certifications
+          </a>
+        </li>
+         <li>
           <a href="#achievements" onClick={close}>
             Achievements
           </a>

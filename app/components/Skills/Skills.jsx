@@ -20,7 +20,8 @@ const skills = [
   "Node.js",
   "ExpressJS",
   "GraphQL",
-  "MongoDB"
+  "MongoDB",
+  "AWS cloud services",
 ];
 
 export default function Skills() {

@@ -26,6 +26,9 @@ export default function Navbar() {
         <li>
           <a href="#projects">Projects</a>
         </li>
+         <li>
+          <a href="#certifications">Certifications</a>
+        </li>
         <li>
           <a href="#achievements">Achievements</a>
         </li>

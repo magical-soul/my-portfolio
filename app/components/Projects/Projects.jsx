@@ -5,19 +5,10 @@ const projects = [
     title: "AI Content Creator Platform",
     tech: "Next.js, React, Gemini API, Tailwind CSS",
     description:
-      "AI-powered content generation platform with performance-optimized UI and SSR.",
+      "AI-powered content generation platform with performance-optimized UI and SSR",
     impact:
       "Built a full-stack AI-powered content generation platform using React and Next.js. Integrated AI APIs for real-time content creation. Deployed on Vercel with optimized performance and responsive UI. Designed to help creators and marketers improve productivity.",
     live: "https://ai-creator-platform-jojo.vercel.app",
-  },
-  {
-    title: "High-Traffic eCommerce Platform - Vestiaire Collective",
-    tech: "Next.js, React, SSR, i18n, Jest",
-    description:
-      "The leading global online marketplace for desirable pre-loved fashion having a mission to transform the fashion industry for a more sustainable future by empowering community to promote circular fashion. Scalable marketplace UI focused on SEO and performance.",
-    impact:
-      "Improved Lighthouse score by 20% and reduced page load times by 40%.",
-    live: "https://www.vestiairecollective.com/",
   },
   {
     title: "StackFlow",
@@ -29,29 +20,15 @@ const projects = [
     live: "https://booking-api-event.vercel.app/",
   },
   {
-    title: "Schemes Provider Application",
-    tech: "ReactJS, Redux, React-Routing, JavaScript, HTML5, CSS3, .net core, Entity framework",
+    title: "Generative AI With LLMs Models",
+    tech: "ReactJS, JavaScript, HTML5, CSS3, GraphQL, NodeJS, ExpressJS, MongoDB",
     description:
-      "LR's service provider assessment schemes help assure the public of competence and safety. Independently assess service providers working within the electricity, gas, and water sectors in the UK. By operating these schemes, we help assure a common level of competency through technical assessments. Service providers can also find information about how to get accredited.",
+      "Generative AI application using Langchain, huggingface and aws services. This showcases  How real-world AI applications are structured on cloud, How to connect multiple AWS services into a working pipeline and How prompt-based systems can be integrated into scalable architectures",
+      
+      //how we can use various foundational LLM models including open source models using aws bedrock.",
     impact:
-      "Improves access to scheme data through efficient UI design and dynamic API integration.",
-  },
-  {
-    title: "Branch Finder",
-    tech: "ReactJS, Redux, React-Router, BingMap, JavaScript, HTML, SCSS, Tealium",
-    description:
-      "Branch finder application is used to find the nearest Post Oﬃce in a UK. It also gives informa%on about diﬀerent postcodes, opening hours allowing you to choose the service you require. It has different services of Delivery office, post office etc. User can track and trace the branch and parcels on maps",
-    impact:
-      "Solves real geolocation problems with interactive maps and responsive search functionality.",
-  },
-  {
-    title: "Eaton Foreseer Monitoring application",
-    tech: "ReactJS, Flux, Redux, Highchart, InteractJS, JavaScript, HTML5, CSS3, C++",
-    description:
-      "Foreseer software is to deliver a single monitoring and management system that ties thousands of complex devices together and builds intelligence around them. It offers vendor-independent solutions designed to help data centers, hospitals, industrial facilities, financial institutions and other organizations to reduce energy consumption and downtime by monitoring parameters of multiple devices(UPSs, PXMs).",
-    impact:
-      "Delivering real-time insights through enterprise-grade monitoring dashboards with optimized performance.",
-    live: "https://www.eaton.com/content/dam/eaton/services/eess/eess-documents/foreseer-br02606004e.pdf",
+      "Designed an API using API Gateway, Built backend logic with AWS Lambda, Integrated with Bedrock foundation models for content generation, Stored generated blog outputs in Amazon S3, Monitored logs and system behavior using CloudWatch",
+    live: "https://www.linkedin.com/posts/jyoti-baraskar-61040890_from-learning-building-recently-i-completed-ugcPost-7456832842296328194-jgV2?utm_source=share&utm_medium=member_desktop&rcm=ACoAABNIKWwBGYPEQM6f6_7AijnxX7viUFvNHMs",
   },
 ];
 

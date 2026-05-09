@@ -6,6 +6,7 @@ import Contact from "./components/Contact/Contact";
 import Education from "./components/Education/Education";
 import Experience from "./components/Experience/Experience";
 import Achievements from "./components/Achievements/Achievements";
+import Certifications from "./components/certifications/Certifications";
 import WhyHireMe from "./components/WhyHireMe/whyHireMe";
 
 export default function Home() {
@@ -13,11 +14,12 @@ export default function Home() {
     <div>
       <Navbar />
       <Hero />
-      <Education />
       <Skills />
       <Experience />
       <Projects />
+      <Certifications />
       <Achievements />
+      <Education />
       <WhyHireMe />
       <Contact />
     </div>

@@ -30,6 +30,16 @@ const projects = [
       "Designed an API using API Gateway, Built backend logic with AWS Lambda, Integrated with Bedrock foundation models for content generation, Stored generated blog outputs in Amazon S3, Monitored logs and system behavior using CloudWatch",
     live: "https://www.linkedin.com/posts/jyoti-baraskar-61040890_from-learning-building-recently-i-completed-ugcPost-7456832842296328194-jgV2?utm_source=share&utm_medium=member_desktop&rcm=ACoAABNIKWwBGYPEQM6f6_7AijnxX7viUFvNHMs",
   },
+    {
+    title: "AeroNet Core: Multi-Threaded Telemetry Grid",
+    tech: "React, TypeScript, Web Workers, Zustand, HTML5 Canvas",
+    description:
+      "Hardware-accelerated geospatial dashboard processing high-frequency data streams off-thread",
+    impact:
+      "Engineered a high-performance aerospace telemetry console capable of processing real-time coordinates at 60 FPS. Isolated heavy trajectory computations off the browser's main thread by designing an asynchronous, background Web Worker ingestion channel. Bypassed React Virtual DOM overhead entirely by painting rendering updates onto an HTML5 Canvas synced via requestAnimationFrame. Normalized global state architecture using a fine-grained Zustand store, converting index arrays into constant-time O(1) dictionary lookups to eliminate UI lag and ensure smooth, serverless client-side execution.",
+    live: "https://telemetry-client-worker-dashboard.vercel.app",
+  },
+
 ];
 
 export default function Projects() {

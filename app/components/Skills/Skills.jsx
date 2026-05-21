@@ -12,6 +12,7 @@ const skills = [
   "Core Web Vitals",
   "REST APIs",
   "WebSockets",
+  "Web Workers",
   "Jest",
   "React Testing Library",
   "Tailwind CSS",

@@ -8,7 +8,7 @@ import profilePic from "@/public/profilePic.jpg";
 export const greeting = {
   name: "Jyoti Baraskar",
   title: "Hi, I’m Jyoti Baraskar 👋",
-  subtitle: "Senior Frontend Engineer | React | Next.js | Performance | AI",
+  subtitle: "Senior Fullstack Engineer |  React · Next.js · Node.js · TypeScript · Cloud & DevOps · Core Web Vitals | AI",
   description:
     "8+ years building scalable web applications, Improved performance scores by 40% on large-scale eCommerce platforms. Experience across React, Next.js, APIs, analytics, SEO, and cloud technologies. Worked closely with product, marketing, backend, and data teams in global environments.",
   resumeLink: "/Jyoti_Baraskar_Resume.pdf",

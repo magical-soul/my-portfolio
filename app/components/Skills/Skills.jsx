@@ -23,6 +23,10 @@ const skills = [
   "GraphQL",
   "MongoDB",
   "AWS cloud services",
+  "Docker",
+  "Kubernetes",
+  "CI/CD",
+  "Git"
 ];
 
 export default function Skills() {

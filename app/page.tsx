@@ -15,8 +15,8 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Skills />
-      <Experience />
       <Projects />
+      <Experience />
       <Certifications />
       <Achievements />
       <Education />

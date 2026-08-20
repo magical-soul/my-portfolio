@@ -2,6 +2,17 @@ import styles from "./experience.module.scss";
 
 export const experience = [
   {
+    company: "Freelance",
+    role: "Senior Fullstack Engineer",
+    duration: "2025 - Present| Dubai, UAE",
+    points: [
+      "Designed and shipped AI-powered content generation platform using Next.js, Gemini API, SSR, and Vercel deployment with optimised Core Web Vitals",
+      "Built full-stack applications with GraphQL APIs, Node.js/Express backend, MongoDB integration, and secure cloud deployment",
+      "Applied AWS cloud and serverless concepts including API Gateway, Lambda, S3, CloudWatch, and Amazon Bedrock while building AI-integrated applications",
+      "Continued professional upskilling in AI, cloud, and full-stack engineering through practical implementation projects and certifications",
+    ],
+  },
+  {
     company: "Vestiaire Collective",
     role: "Senior Frontend Engineer",
     duration: "2021 – 2025 | Paris, France",
@@ -36,7 +47,8 @@ export const experience = [
       "Built responsive React.js and Angular applications for enterprise clients focusing on cross-browser compatibility, accessibility, and clean component architecture",
       "Developed reusable component libraries and implemented interactive UI features in collaboration with backend services",
       "Participated in code reviews, debugging, and production issue resolution to maintain high code quality",
-    ],},
+    ],
+  },
   {
     company: "Eaton",
     role: "Associate Engineer",
@@ -45,7 +57,8 @@ export const experience = [
       "Built industrial monitoring and control dashboards using React.js integrating real-time and historical data from backend APIs",
       "Developed interactive UI modules and data visualisations for complex enterprise workflows across industrial facilities",
       "Improved frontend performance and UI responsiveness for complex data workflows; ensured production readiness and cross-browser compatibility",
-      "Collaborated with backend teams to integrate REST APIs and ensure seamless data flow between frontend and backend systems",],
+      "Collaborated with backend teams to integrate REST APIs and ensure seamless data flow between frontend and backend systems",
+    ],
   },
 ];
 

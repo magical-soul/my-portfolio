@@ -7,6 +7,8 @@ const skills = [
   "Next.js",
   "Angular",
   "Redux",
+  "HTML5",
+  "CSS3",
   "Server-Side Rendering (SSR)",
   "Web Performance",
   "Core Web Vitals",
@@ -22,11 +24,12 @@ const skills = [
   "ExpressJS",
   "GraphQL",
   "MongoDB",
+  "PostgreSQL",
   "AWS cloud services",
   "Docker",
   "Kubernetes",
   "CI/CD",
-  "Git"
+  "Git",
 ];
 
 export default function Skills() {
